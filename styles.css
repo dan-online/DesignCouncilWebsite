@@ -1,0 +1,83 @@
+:root {
+	/* actual names of the colours: */
+	--light-coral: #ef767a;
+	--rich-black-fogra-39: #0a0903;
+	--keppel: #49beaa;
+	--white: #ffffff;
+	--usafa-blue: #0353a4;
+	--queen-blue: #456990ff;
+	--keppel: #49beaaff;
+	--medium-aquamarine: #49dcb1ff;
+	--sunray: #eeb868ff;
+	--oxford-blue: #000022;
+	--ivory: #EAF2E3;
+
+	/* shorter names: */
+	/* use these throught the rest of the css */
+	--background1: #202020; 
+	--background2: #2B2C2A;
+	--text-light: #E1D4ED;
+	--text-dark: #61E8E1;
+}
+body {
+	background: #fafafa;
+	background: url("./assets/redfluid.png");
+}
+.header {
+	background: var(--light-coral);
+	color: var(--keppel);
+}
+header {
+	align-content: left;
+	font-size: 20px;
+	font-family: monospace;
+}
+nav {
+	align-content: right;
+	align-items: right;
+}
+.pictures {
+	padding: 5px;
+	margin-left:  auto; 
+	margin-right: auto;
+	width:  1200px;
+	height: 800px;
+	border: 3px solid var(--rich-black-fogra-39);
+	display: block;
+}
+.middle-box {
+	background: var(--background2);
+	text-align: left;
+	padding: 20px;
+	margin-left:  20%; 
+	margin-right: 20%; 
+	border: 3px solid var(--keppel);
+	color: var(--text-light);
+}
+p {
+	font-family: Verdana, sans-serif;
+	font-size: 18px;
+	color: #FEFFFE;
+}
+h1 {
+	color: var(--light-coral);
+	font-family: monospace;
+}
+footer .footer {
+	padding: 20px;
+	text-align: center;
+	margin-left:  auto; 
+	margin-right: auto;
+	color: grey;
+	font-family: monospace;
+	background: var(--background2);
+
+}
+.pic-box-left {
+	float: left;
+	padding: 10px;
+	border: 3px solid #F0F0F0;
+}
+.pic-box-right {
+	float: right;
+}
